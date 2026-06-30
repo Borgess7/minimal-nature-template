@@ -138,3 +138,84 @@ img {
   height: 100%;
   object-fit: cover;
 }
+
+@media (max-width: 768px) {
+  /* Style for Mobile/Tablet */
+
+  * {
+    margin: 0px;
+    padding: 0px;
+  }
+
+  body {
+    overflow: auto;
+  }
+
+  div#box-principal {
+    flex-flow: column;
+  }
+
+  div#row-1,
+  #row-2 {
+    display: flex;
+    flex-flow: column nowrap;
+    flex: auto;
+
+    width: 700px;
+    height: auto;
+  }
+
+  div#box1 {
+    background-color: black;
+    padding-left: 20px;
+  }
+
+  h5 {
+    margin-top: 30px;
+    position: static;
+  }
+
+  h2 {
+    margin-top: 10px;
+    position: static;
+  }
+
+  div#box5 {
+    background-color: gray;
+    height: 400px;
+  }
+
+  div#box3 {
+    height: 400px;
+  }
+
+  div#box6 {
+    height: 90px;
+  }
+
+  .redes-sociais a {
+    font-size: 30px;
+  }
+
+  div.content {
+    width: 100vw;
+    height: 200px;
+  }
+
+  .caixa-texto-branco {
+    font-size: 15px;
+    padding: 25px;
+    padding-bottom: 0px;
+  }
+
+  .sub-texto {
+    font-size: 12px;
+    padding: 25px;
+  }
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
