@@ -171,11 +171,13 @@ img {
   }
 
   h5 {
+    font-size: 11px;
     margin-top: 30px;
     position: static;
   }
 
   h2 {
+    font-size: 52px;
     margin-top: 10px;
     position: static;
   }
