@@ -1,0 +1,140 @@
+@charset "UTF-8";
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: rgb(80, 80, 80);
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+}
+
+main#box-principal {
+  display: flex;
+  flex-wrap: wrap;
+  flex-basis: 600px;
+
+  width: 100vw;
+  height: 100vh;
+}
+
+div#row-1,
+#row-2 {
+  display: flex;
+  flex-flow: row nowrap;
+  flex: auto;
+}
+
+div#row-1 {
+  order: 0;
+}
+
+div#row-2 {
+  order: 1;
+}
+
+div.content {
+  width: 640px;
+  height: 100%;
+}
+
+div#box1 {
+  background-color: black;
+  position: relative;
+}
+
+h5 {
+  color: white;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-size: 18px;
+
+  position: absolute;
+  top: 150px;
+  left: 50px;
+}
+
+h2 {
+  color: #0a51f7;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  font-size: 62px;
+
+  position: absolute;
+  top: 200px;
+  left: 50px;
+}
+
+div#box2 {
+  background-color: #f2f2f2;
+}
+
+div#box3 {
+  background-color: gray;
+}
+
+div#box4 {
+  background-color: white;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.caixa-texto-branco {
+  background-color: #ffffff;
+  color: #333333;
+  font-family: "Merriweather", serif;
+  font-size: 16px;
+  font-weight: 200;
+  line-height: 1.6;
+  padding: 40px;
+  padding-bottom: 0px;
+}
+
+.sub-texto {
+  color: #999999;
+  font-size: 14px;
+  margin-top: 0px;
+}
+
+div#box5 {
+  background-color: gray;
+}
+
+div#box6 {
+  background-color: #0a51f7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.redes-sociais {
+  display: flex;
+  gap: 25px;
+}
+
+.redes-sociais a {
+  color: #ffffff;
+  font-size: 26px;
+  text-decoration: none;
+  transition: transform 0.2s ease;
+}
+
+.redes-sociais a:hover {
+  transform: scale(1.1);
+  opacity: 0.8;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
